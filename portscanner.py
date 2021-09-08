@@ -10,7 +10,6 @@ def check_ip(ip):
     except ValueError:
         return socket.gethostbyname(ip)
 
-
 # function to scan the port
 def scan_port(ipaddress, port):
     try:
@@ -21,7 +20,7 @@ def scan_port(ipaddress, port):
     except:
         print('[-] Port ' + str(port) + ' is Closed')
 
-
+        
 # specifying the ipaddress
 ipaddress = input('[+] Enter Target to Scan: ')
 converted_ip = check_ip(ipaddress)
