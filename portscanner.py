@@ -27,5 +27,5 @@ ipaddress = input('[+] Enter Target to Scan: ')
 converted_ip = check_ip(ipaddress)
 
 # range of ports to scan
-for port in range(75, 85):
+for port in range(1, 100):
     scan_port(converted_ip, port)
