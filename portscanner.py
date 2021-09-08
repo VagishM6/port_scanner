@@ -2,7 +2,7 @@ import socket
 from IPy import IP
 
 
-# checking if the ip address is numeric, else converting the domain to ip address
+# checking if the ip address is numeric, or converting the url to ip address
 def check_ip(ip):
     try:
         IP(ip)
